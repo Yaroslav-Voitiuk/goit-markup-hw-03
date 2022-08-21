@@ -10,6 +10,7 @@
     --team-background-card-color:#fff;
     --card-border-color:#eeeeee;
     --primary-font: 'Roboto', sans-serif;
+    --header-line: #ececec;
 }
 
 body {
@@ -63,6 +64,11 @@ button {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.page-header {
+    border-bottom: 1px solid var(--header-line);
+}
+
 /* HEADER */
 .logo {
     font-family: 'Raleway';
@@ -198,7 +204,7 @@ button {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .product-img {
@@ -267,7 +273,7 @@ button {
     cursor: pointer;
     border-radius: 4px;
     border: none;
-    padding: 6px 22px;
+    padding: 6px 25px;
 }
 
 .port-button:active,
