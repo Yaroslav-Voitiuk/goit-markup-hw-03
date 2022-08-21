@@ -183,12 +183,16 @@ button {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 .features-text    {
     font-weight: 400;
-    line-height: 1.714;
+    line-height: 1.71;
     color: var(--body-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .features-pos {
@@ -196,6 +200,10 @@ button {
     gap: 30px;
     padding-top: 90px;
     padding-bottom: 95px;
+}
+
+.features-item {
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .work-title,
