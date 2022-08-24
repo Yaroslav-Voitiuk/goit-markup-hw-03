@@ -55,7 +55,10 @@ button {
     cursor: pointer;
 }
 
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .container {
     width: 1200px   ;
@@ -67,6 +70,14 @@ button {
 
 .page-header {
     border-bottom: 1px solid var(--header-line);
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.page-header>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* HEADER */
@@ -109,20 +120,14 @@ button {
     color: var(--blue-text-color);
 }
 
-.page-header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
 .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .menu-nav {
     display: flex;
     column-gap: 50px;
-    padding-top: 10px;
 }
 
 .contact-nav {
@@ -198,8 +203,7 @@ button {
 .features-pos {
     display: flex;
     gap: 30px;
-    padding-top: 90px;
-    padding-bottom: 95px;
+
 }
 
 .features-item {
@@ -222,7 +226,6 @@ button {
 }
 .team {
     background-color: var(--team-background-color);
-    padding-top: 95px;
 }
 
 .team-style {
@@ -278,7 +281,6 @@ button {
     text-align: center;
     background-color: var(--team-background-color);
     color: var(--body-title-color);
-    cursor: pointer;
     border-radius: 4px;
     border: none;
     padding: 6px 25px;
@@ -312,7 +314,6 @@ button {
 .portfolio-button-styles {
     display: flex;
     gap: 10px;
-    padding-top: 95px;
     padding-bottom: 50px;
     justify-content: center;
 }
