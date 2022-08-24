@@ -222,7 +222,6 @@ button {
 .product-img {
     display: flex;
     gap: 30px;
-    padding-bottom: 95px;
 }
 .team {
     background-color: var(--team-background-color);
@@ -231,7 +230,6 @@ button {
 .team-style {
     display: flex;
     gap: 30px;
-    padding-bottom: 95px;
 }
 
 .card-back {
@@ -247,17 +245,19 @@ button {
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
+.worker-cards {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .work-position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
     color: var(--body-text-color);
-    padding-bottom: 30px;
 }
 
 .visually-hidden {
@@ -279,11 +279,17 @@ button {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    letter-spacing: 0.03em;
     background-color: var(--team-background-color);
     color: var(--body-title-color);
     border-radius: 4px;
     border: none;
-    padding: 6px 25px;
+    padding: 6px 22px;
+}
+
+.current {
+    background-color: var(--blue-text-color);
+    color: var(--white-text-color) ;
 }
 
 .port-button:active,
@@ -301,6 +307,7 @@ button {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .portfolio-position {
@@ -313,8 +320,8 @@ button {
 
 .portfolio-button-styles {
     display: flex;
-    gap: 10px;
-    padding-bottom: 50px;
+    gap: 8px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -326,11 +333,9 @@ button {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    padding-bottom: 95px;
 }
 
 .portfolio-content-style {
-    max-width: 100%;
     padding: 20px 24px;
     border: 1px solid var(--card-border-color);
     border-top: none;
@@ -339,6 +344,8 @@ button {
 /* FOOTER */
 .page-footer {
     background-color: var(--background-gray-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-white {
@@ -361,14 +368,20 @@ button {
 
 }
 
-.footer-style {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--blue-text-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
 }
 
-.contact-footer-style {
-    padding-top: 30px;
-}
+
 .footer-li-style {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
