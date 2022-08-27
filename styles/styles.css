@@ -76,7 +76,6 @@ button {
 
 .page-header>.container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -133,6 +132,7 @@ button {
 .contact-nav {
     display: flex;
     column-gap: 50px;
+    margin-left: auto;
 }
 
 .test-div {
@@ -219,6 +219,9 @@ button {
     margin-bottom: 50px;
 }
 
+.work-style {
+    padding-top: 0;
+}
 .product-img {
     display: flex;
     gap: 30px;
@@ -382,6 +385,6 @@ button {
 }
 
 
-.footer-li-style {
+.footer-menu-item:not(:last-child) {
     margin-bottom: 9px;
 }
